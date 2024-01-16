@@ -6,7 +6,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://socioal-pedia.netlify.app/signup"],
     method: ["GET", "POST"],
     credentials: true,
   })
