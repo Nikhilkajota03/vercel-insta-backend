@@ -21,9 +21,6 @@ app.use(require("./routes/auth"))
 app.use(require("./routes/createPost"))
 app.use(require("./routes/user"))
 
-app.use("/", (req,res)=>{
-    res.send("server running")
-})
 
 
 
